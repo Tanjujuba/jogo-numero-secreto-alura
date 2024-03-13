@@ -1,4 +1,4 @@
-/*let listaNumeroSorteado = [];
+let listaNumeroSorteado = [];
 let numeroLimite = 3;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
@@ -67,13 +67,5 @@ function reiniciarJogo() {
     mensagemInicial();
     limparCampo();
     document.getElementById('reiniciar').setAttribute('disabled', true);
-}*/
+};
 
-let linguagensDeProgramacao = ['JS','C','C++','Kotlin','Python'];
-
-linguagensDeProgramacao.push('Java', 'Ruby', 'GoLang');
-
-console.log (linguagensDeProgramacao);
-console.log (linguagensDeProgramacao[0]);
-console.log (linguagensDeProgramacao[1]);
-console.log (linguagensDeProgramacao[linguagensDeProgramacao.length-1]);
